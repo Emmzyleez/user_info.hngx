@@ -15,8 +15,8 @@ def user_info_view(request):
 
     data['current_day'] = datetime.datetime.now().strftime('%A')
     data['utc_time'] = datetime.datetime.utcnow().replace(microsecond=0).isoformat()  + 'Z'
-    data['github_file_url'] = 'https://github.com/username/repo/blob/main/file_name.ext'
-    data['github_repo_url'] = 'https://github.com/username/repo'
+    data['github_file_url'] = 'https://github.com/Emmzyleez/user_info.hngx/blob/main/api/views.py'
+    data['github_repo_url'] = 'https://github.com/Emmzyleez/user_info.hngx'
     data['status_code'] = 200
 
 
